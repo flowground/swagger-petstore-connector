@@ -2,14 +2,14 @@
 
 ## Description
 
-A generated **flow**ground connector for the Swagger Petstore API (version 1.0.2).
+A generated **flow**ground connector for the Swagger Petstore API (version 1.0.0).
 
 Generated from: https://petstore.swagger.io/v2<br/>
-Generated at: 2019-10-04T08:03:47+00:00
+Generated at: 2019-10-17T09:24:40+00:00
 
 ## API Description
 
-This is a sample server Petstore server.  You can find out more about Swagger at [http://swagger.io](http://swagger.io) or on [irc.freenode.net, #swagger](http://swagger.io/irc/).  For this sample, you can use the api key `special-key` to test the authorization filters.<br/>
+x This is a sample server Petstore server.  You can find out more about Swagger at [http://swagger.io](http://swagger.io) or on [irc.freenode.net, #swagger](http://swagger.io/irc/).  For this sample, you can use the api key `special-key` to test the authorization filters.<br/>
 
 ## Authorization
 
