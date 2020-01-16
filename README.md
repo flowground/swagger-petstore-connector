@@ -5,7 +5,7 @@
 A generated **flow**ground connector for the Swagger Petstore API (version 1.0.3).
 
 Generated from: https://petstore.swagger.io/v2<br/>
-Generated at: 2020-01-16T14:08:19+00:00
+Generated at: 2020-01-16T14:11:27+00:00
 
 ## API Description
 
@@ -103,19 +103,6 @@ For OAuth 2.0 you need to specify OAuth Client credentials as environment variab
 
 *Tags:* `store`
 
-### Create user
-> This can only be done by the logged in user.<br/>
-
-*Tags:* `user`
-
-### Creates list of users with given input array
-
-*Tags:* `user`
-
-### Creates list of users with given input array
-
-*Tags:* `user`
-
 ### Get user by user name
 
 *Tags:* `user`
@@ -148,6 +135,19 @@ For OAuth 2.0 you need to specify OAuth Client credentials as environment variab
 * `password` - _required_ - The password for login in clear text<br/>
 
 ### Logs out current logged in user session
+
+*Tags:* `user`
+
+### Create user
+> This can only be done by the logged in user.<br/>
+
+*Tags:* `user`
+
+### Creates list of users with given input array
+
+*Tags:* `user`
+
+### Creates list of users with given input array
 
 *Tags:* `user`
 

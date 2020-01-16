@@ -259,57 +259,6 @@
                 }
             }
         },
-        "createUser": {
-            "main": "./lib/actions/createUser.js",
-            "title": "Create user",
-            "description": "This can only be done by the logged in user.",
-            "fields": {
-                "verbose": {
-                    "viewClass": "CheckBoxView",
-                    "label": "Debug this step (log more data)"
-                }
-            },
-            "metadata": {
-                "in": "./lib/schemas/createUser.in.json",
-                "out": {
-                    "type": "object"
-                }
-            }
-        },
-        "createUsersWithArrayInput": {
-            "main": "./lib/actions/createUsersWithArrayInput.js",
-            "title": "Creates list of users with given input array",
-            "description": "",
-            "fields": {
-                "verbose": {
-                    "viewClass": "CheckBoxView",
-                    "label": "Debug this step (log more data)"
-                }
-            },
-            "metadata": {
-                "in": "./lib/schemas/createUsersWithArrayInput.in.json",
-                "out": {
-                    "type": "object"
-                }
-            }
-        },
-        "createUsersWithListInput": {
-            "main": "./lib/actions/createUsersWithListInput.js",
-            "title": "Creates list of users with given input array",
-            "description": "",
-            "fields": {
-                "verbose": {
-                    "viewClass": "CheckBoxView",
-                    "label": "Debug this step (log more data)"
-                }
-            },
-            "metadata": {
-                "in": "./lib/schemas/createUsersWithListInput.in.json",
-                "out": {
-                    "type": "object"
-                }
-            }
-        },
         "getUserByName": {
             "main": "./lib/actions/getUserByName.js",
             "title": "Get user by user name",
@@ -390,6 +339,57 @@
             },
             "metadata": {
                 "in": "./lib/schemas/logoutUser.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "createUser": {
+            "main": "./lib/actions/createUser.js",
+            "title": "Create user",
+            "description": "This can only be done by the logged in user.",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/createUser.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "createUsersWithArrayInput": {
+            "main": "./lib/actions/createUsersWithArrayInput.js",
+            "title": "Creates list of users with given input array",
+            "description": "",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/createUsersWithArrayInput.in.json",
+                "out": {
+                    "type": "object"
+                }
+            }
+        },
+        "createUsersWithListInput": {
+            "main": "./lib/actions/createUsersWithListInput.js",
+            "title": "Creates list of users with given input array",
+            "description": "",
+            "fields": {
+                "verbose": {
+                    "viewClass": "CheckBoxView",
+                    "label": "Debug this step (log more data)"
+                }
+            },
+            "metadata": {
+                "in": "./lib/schemas/createUsersWithListInput.in.json",
                 "out": {
                     "type": "object"
                 }
