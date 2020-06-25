@@ -2,10 +2,10 @@
 
 ## Description
 
-A generated **flow**ground connector for the Swagger Petstore API (version 1.0.3).
+A generated **flow**ground connector for the Swagger Petstore API (version 1.0.5).
 
 Generated from: https://petstore.swagger.io/v2<br/>
-Generated at: 2020-01-21T13:09:23+00:00
+Generated at: 2020-06-25T09:56:02+00:00
 
 ## API Description
 
@@ -23,29 +23,6 @@ For OAuth 2.0 you need to specify OAuth Client credentials as environment variab
 * `OAUTH_CLIENT_SECRET` - your OAuth client secret
 
 ## Actions
-
-### Find pet by ID
-> Returns a single pet<br/>
-
-*Tags:* `pet`
-
-#### Input Parameters
-* `petId` - _required_ - ID of pet to return<br/>
-
-### Updates a pet in the store with form data
-
-*Tags:* `pet`
-
-#### Input Parameters
-* `petId` - _required_ - ID of pet that needs to be updated<br/>
-
-### Deletes a pet
-
-*Tags:* `pet`
-
-#### Input Parameters
-* `api_key` - _optional_
-* `petId` - _required_ - Pet id to delete<br/>
 
 ### uploads an image
 
@@ -78,8 +55,30 @@ For OAuth 2.0 you need to specify OAuth Client credentials as environment variab
 #### Input Parameters
 * `tags` - _required_ - Tags to filter by<br/>
 
-### Returns pet inventories by status
-> Returns a map of status codes to quantities<br/>
+### Find pet by ID
+> Returns a single pet<br/>
+
+*Tags:* `pet`
+
+#### Input Parameters
+* `petId` - _required_ - ID of pet to return<br/>
+
+### Updates a pet in the store with form data
+
+*Tags:* `pet`
+
+#### Input Parameters
+* `petId` - _required_ - ID of pet that needs to be updated<br/>
+
+### Deletes a pet
+
+*Tags:* `pet`
+
+#### Input Parameters
+* `api_key` - _optional_
+* `petId` - _required_ - Pet id to delete<br/>
+
+### Place an order for a pet
 
 *Tags:* `store`
 
@@ -99,14 +98,10 @@ For OAuth 2.0 you need to specify OAuth Client credentials as environment variab
 #### Input Parameters
 * `orderId` - _required_ - ID of the order that needs to be deleted<br/>
 
-### Place an order for a pet
+### Returns pet inventories by status
+> Returns a map of status codes to quantities<br/>
 
 *Tags:* `store`
-
-### Create user
-> This can only be done by the logged in user.<br/>
-
-*Tags:* `user`
 
 ### Creates list of users with given input array
 
@@ -148,6 +143,11 @@ For OAuth 2.0 you need to specify OAuth Client credentials as environment variab
 * `password` - _required_ - The password for login in clear text<br/>
 
 ### Logs out current logged in user session
+
+*Tags:* `user`
+
+### Create user
+> This can only be done by the logged in user.<br/>
 
 *Tags:* `user`
 
